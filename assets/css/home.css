@@ -4,8 +4,6 @@
   width: 100%;
 }
 
-section .card {}
-
 section .card .card-header {
   z-index: 222;
   position: relative;
@@ -34,8 +32,6 @@ section .card-header-content .card-header-subtitle {
   color: #f2f2f2;
   font-weight: 600;
 }
-
-section .card-header-content .card-header-btn {}
 
 section .card-space-future {
   margin-top: 30px;
