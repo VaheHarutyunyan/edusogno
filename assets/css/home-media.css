@@ -1,0 +1,203 @@
+@media screen and (max-width:1400px) {
+    .card-circle {
+        height: 700px;
+    }
+
+    .card-circle .rocket-flag {
+        height: 700px;
+        top: 0;
+    }
+
+    .card-circle .card-circle-img {
+        width: 480px;
+        height: 700px;
+    }
+
+    .card-circle .card-circle-content {
+        row-gap: 20px;
+        width: 300px;
+    }
+
+    .card-circle .card-circle-content-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card-circle .card-circle-content h3 {
+        font-size: 26px;
+    }
+
+    .card-circle .card-circle-content p {
+        font-size: 18px;
+    }
+
+    .card-record .card-record-img {
+        max-width: 300px;
+    }
+
+    .card-record .card-record-col {
+        row-gap: 20px;
+    }
+
+    .card-record .card-record-col h2 {
+        font-size: 42px;
+        max-width: 40%;
+    }
+
+    .card-record .card-record-col p {
+        font-size: 18px;
+        max-width: 35%;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    section .card-header-content .card-header-title {
+        font-size: 47px;
+    }
+
+    section .card-header-content .card-header-subtitle {
+        margin: 45px 0 50px;
+        font-size: 22px;
+        max-width: 50%;
+    }
+
+    section .card-space-future .card-astronaut-smoke {
+        bottom: -350px;
+    }
+
+    .card-goals-img img {
+        width: 70px;
+    }
+
+    .card-goals-img-content {
+        height: 300px;
+        max-width: 480px;
+    }
+
+    .card-goals-img-content p {
+        font-size: 22px;
+    }
+
+    .card-record .card-record-img {
+        max-width: 250px;
+    }
+
+    .card-record .card-record-col h2 {
+        font-size: 40px;
+        max-width: 40%;
+    }
+
+    .card-record .card-record-col p {
+        font-size: 18px;
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .card-circle {
+        height: 500px;
+    }
+
+    .card-circle .rocket-flag {
+        height: 700px;
+    }
+
+    .card-circle .rocket-flag img {
+        transform: scale(1);
+    }
+
+    .card-circle .card-circle-img {
+        width: 350px;
+        height: 500px;
+    }
+
+    .card-circle .card-circle-content {
+        row-gap: 15px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section .card-header-content .card-header-subtitle {
+        max-width: 60%;
+    }
+
+    section .card-space-future .card-astronaut-smoke {
+        width: 110%;
+        bottom: -380px;
+    }
+
+    .card-goals-img img {
+        width: 50px;
+    }
+
+    .card-goals-img-content {
+        height: 220px;
+        max-width: 300px;
+    }
+
+    .card-goals-img-content p {
+        font-size: 16px;
+    }
+
+    .card-circle .rocket-flag {
+        display: none;
+    }
+
+    .card-record {
+        padding-top: 200px;
+    }
+
+    .card-record .card-record-img {
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+
+    .card-record .card-record-img img {
+        transform: rotate(-48deg);
+    }
+
+    .card-record .card-record-col-first {
+        align-items: center;
+    }
+
+    .card-record .card-record-col-last {
+        align-items: center;
+    }
+
+    .card-record .card-record-col {
+        justify-content: center;
+    }
+
+    .card-record .card-record-col-first h2,
+    .card-record .card-record-col-first p,
+    .card-record .card-record-col-last h2,
+    .card-record .card-record-col-last p {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    section .card-header-content .card-header-title {
+        font-size: 37px;
+    }
+
+    .card-goals-img-content {
+        max-width: 200px;
+    }
+
+    .card-goals-img-content p {
+        font-size: 15px;
+    }
+
+    .card-record .card-record-col h2 {
+        font-size: 30px;
+    }
+
+    .card-record .card-record-col p {
+        font-size: 16px;
+    }
+}

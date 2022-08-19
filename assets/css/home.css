@@ -1,0 +1,251 @@
+#home {
+  background: url("/assets/img/home/bg.png") top center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+section .card {}
+
+section .card .card-header {
+  z-index: 222;
+  position: relative;
+  padding-top: 200px;
+}
+
+section .card-header-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  height: fit-content;
+}
+
+section .card-header-content .card-header-title {
+  color: #f2f2f2;
+  font-size: 67px;
+  font-weight: 700;
+}
+
+section .card-header-content .card-header-subtitle {
+  margin: 45px 0 60px;
+  font-size: 37px;
+  max-width: 913px;
+  color: #f2f2f2;
+  font-weight: 600;
+}
+
+section .card-header-content .card-header-btn {}
+
+section .card-space-future {
+  margin-top: 30px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  height: 70vw;
+}
+
+section .card-space-future .card-astronaut-smoke {
+  width: 100%;
+  position: absolute;
+  z-index: 111;
+  bottom: -370px;
+  left: 0px;
+  opacity: 0;
+}
+
+section .card-space-future .card-astronaut-smoke img {
+  width: 120%;
+  height: 100%;
+  transform: translateX(-70vw);
+}
+
+
+/* goals */
+
+.card-goals {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* .card-goals::after{
+  content:"";
+  display: block;
+  background: url('/assets/img/home/3.svg') center center no-repeat;
+  background-size: 100%;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+} */
+.card-goals-img {
+  width: 50%;
+  right: 0;
+  position: absolute;
+}
+
+.card-goals-img:first-child {
+  text-align: right;
+  left: 0;
+}
+
+.card-goals-img img {
+  width: 110px;
+}
+
+.card-goals-img-last img {
+  transform: rotate(180deg);
+}
+
+.card-goals-img-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 800px;
+  height: 486px;
+  opacity: 0;
+}
+
+.card-goals-img-content p {
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* card-circle */
+.card-circle {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.card-circle .rocket-flag {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  right: 0;
+  top: 250px;
+  opacity: 0;
+  transform: translate(100%, 100%);
+  z-index: 111;
+}
+
+.card-circle .rocket-flag img {
+  width: 60%;
+  height: 100%;
+  transform: scale(1.2);
+}
+
+.card-circle .card-circle-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 1000px;
+  position: absolute;
+  right: 0;
+  background: url(/assets/img/home/circle.png) center center no-repeat;
+  background-size: 100% 113%;
+  transform: translateX(400px);
+  z-index: 222;
+}
+
+.card-circle .card-circle-content {
+  display: flex;
+  align-items: flex-end;
+  row-gap: 15px;
+  flex-direction: column;
+  width: 450px;
+  transform: translateY(-100px);
+}
+
+.card-circle .card-circle-content-img {
+  width: 120px;
+  height: 120px;
+}
+
+.card-circle .card-circle-content-img img {
+  object-fit: cover;
+  transform: scale(2.2) translateX(7px);
+  /* transform: translateX(20px); */
+
+}
+
+.card-circle .card-circle-content h3 {
+  text-align: right;
+  color: #2D224C;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.card-circle .card-circle-content p {
+  text-align: right;
+  color: #2D224C;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+
+/* card-record */
+
+.card-record {
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 200px;
+  position: relative;
+}
+
+.card-record .card-record-img {
+  position: absolute;
+  right: -200px;
+  top: 0;
+  max-width: 450px;
+  width: 100%;
+}
+
+.card-record .card-record-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-record .card-record-col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.card-record .card-record-col h2 {
+  color: #f2f2f2;
+  font-size: 67px;
+  font-weight: 700;
+  max-width: 50%;
+}
+
+.card-record .card-record-col p {
+  font-size: 22px;
+  max-width: 50%;
+  color: #f2f2f2;
+  font-weight: 600;
+}
+
+.card-record .card-record-col-last {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-record .card-record-col-last h2,
+.card-record .card-record-col-last p {
+  text-align: end;
+}
