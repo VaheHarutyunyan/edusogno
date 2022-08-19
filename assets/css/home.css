@@ -1,5 +1,5 @@
 #home {
-  background: url("./assets/img/home/bg.png") top center no-repeat;
+  background: url("../../assets/img/home/bg.png") top center no-repeat;
   background-size: cover;
   width: 100%;
 }
@@ -154,7 +154,7 @@ section .card-space-future .card-astronaut-smoke img {
   height: 1000px;
   position: absolute;
   right: 0;
-  background: url(./assets/img/home/circle.png) center center no-repeat;
+  background: url('../../assets/img/home/circle.png') center center no-repeat;
   background-size: 100% 113%;
   transform: translateX(400px);
   z-index: 222;
